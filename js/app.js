@@ -19,7 +19,7 @@ if (Number(pop) || Number(flavour)) {
     } else if (!flavour){
       console.log(chalk.blue('Please enter your preferred soda flavour.'))
     } else if (pop && flavour){
-      console.log(chalk.green(`Well... ${pop}, ${flavour}. Not a bad choice!`))
+      console.log(chalk.green(`Well... ${pop} ${flavour}. Not a bad choice!`))
     } else {
       console.log(chalk.red('Invalid entry. Please enter your preffered soda brand and flavour'))
     }
